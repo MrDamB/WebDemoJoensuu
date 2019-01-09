@@ -8,5 +8,7 @@
         Title="Säätiedot" Height="540.241" Width="645.714">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="27,38,0,0" TextWrapping="Wrap" Text="Sää tällä hetkellä" VerticalAlignment="Top" Height="87" Width="316" FontFamily="Segoe UI Black" FontSize="36"/>
+        <Image x:Name="Muuttuvakuva" HorizontalAlignment="Left" Height="229" Margin="353,146,0,0" VerticalAlignment="Top" Width="229" Initialized="Muuttuvakuva_Initialized"/>
+        <TextBlock x:Name="Lämpötila" HorizontalAlignment="Left" Margin="43,112,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="60" Width="102" FontSize="24" Initialized="Lämpötila_Initialized"/>
     </Grid>
 </Window>

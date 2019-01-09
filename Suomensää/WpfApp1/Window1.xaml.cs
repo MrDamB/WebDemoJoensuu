@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Xml;
 
 namespace WpfApp1
 {
@@ -20,8 +21,23 @@ namespace WpfApp1
     public partial class Window1 : Window
     {
         public Window1()
-        {
+        { 
+            
+            XmlDocument saaTiedot = new XmlDocument();
+            saaTiedot.Load("http://api.openweathermap.org/data/2.5/weather?q=Rovaniemi,fi&APPID=fc1e75b8dbbcabd75b50acb117c87da9&mode=xml&units=metric");
+            XmlNode temperature = saaTiedot.SelectSingleNode("//current/temperature");
             InitializeComponent();
+            Lämpötila.Text = temperature.Attributes["value"].Value;
+        }
+
+        private void Muuttuvakuva_Initialized(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lämpötila_Initialized(object sender, EventArgs e)
+        {
+            
         }
     }
 }

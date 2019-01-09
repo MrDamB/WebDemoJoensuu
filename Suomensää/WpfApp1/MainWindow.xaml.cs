@@ -25,8 +25,7 @@ namespace WpfApp1
         {
             InitializeComponent();
 
-            XmlDocument saaTiedot = new XmlDocument();
-            saaTiedot.Load("http://catalog.fmi.fi/geonetwork/srv/api/records/43282657-3329-4c82-bd31-2631f41357f5/formatters/xml");
+           
         }
 
         private void Rovaniemi_Click(object sender, RoutedEventArgs e)
@@ -41,6 +40,11 @@ namespace WpfApp1
         }
 
         private void Rovaniemi_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void Oulu_Click(object sender, RoutedEventArgs e)
         {
 
         }
