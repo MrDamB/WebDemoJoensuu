@@ -30,8 +30,7 @@ namespace WpfApp1
             temperatureArvo = temperatureArvo.Replace(".", ",");
             decimal arvo = Convert.ToDecimal(temperatureArvo);
             InitializeComponent();
-            decimal pyöristys = Math.Round(arvo, 1);
-            Lämpötila.Text = pyöristys.ToString();
+            Lämpötila.Text = arvo.ToString("0");
         }
     }
 }
