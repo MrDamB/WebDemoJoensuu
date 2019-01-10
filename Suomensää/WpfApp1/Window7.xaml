@@ -8,8 +8,8 @@
         Title="Window7" Height="507" Width="627">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="25,25,0,0" TextWrapping="Wrap" Text="Lämpötila tällä hetkellä" VerticalAlignment="Top" Height="112" Width="316" FontFamily="Segoe UI Black" FontSize="36"/>
-        <TextBlock x:Name="Lämpötila" HorizontalAlignment="Left" Margin="25,142,0,0" TextWrapping="Wrap" Text="Testi" VerticalAlignment="Top" Height="60" Width="42" FontSize="24" />
-        <TextBlock x:Name="Celsius" HorizontalAlignment="Left" Margin="72,142,0,0" TextWrapping="Wrap" Text="°C" VerticalAlignment="Top" Height="39" Width="34" FontSize="24" RenderTransformOrigin="0.061,0.492"/>
+        <TextBlock x:Name="Lämpötila" HorizontalAlignment="Left" Margin="25,142,0,0" TextWrapping="Wrap" Text="Testi" VerticalAlignment="Top" Height="60" Width="50" FontSize="24" />
+        <TextBlock x:Name="Celsius" HorizontalAlignment="Left" Margin="80,142,0,0" TextWrapping="Wrap" Text="°C" VerticalAlignment="Top" Height="39" Width="34" FontSize="24" RenderTransformOrigin="0.061,0.492"/>
         <Image HorizontalAlignment="Left" Height="381" VerticalAlignment="Top" Width="221" Margin="346,46,0,0" Source="Jyväskylä.png"/>
 
     </Grid>
