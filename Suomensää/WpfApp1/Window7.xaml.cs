@@ -26,9 +26,11 @@ namespace WpfApp1
             XmlDocument saaTiedot = new XmlDocument();
             saaTiedot.Load("http://api.openweathermap.org/data/2.5/weather?q=Jyväskylä,fi&APPID=fc1e75b8dbbcabd75b50acb117c87da9&mode=xml&units=metric");
             XmlNode temperature = saaTiedot.SelectSingleNode("//current/temperature");
-            double arvo = Convert.ToDouble(temperature.Attributes["value"].Value);
+            string temperatureArvo = temperature.Attributes["value"].Value;
+            temperatureArvo = temperatureArvo.Replace(".", ",");
+            decimal arvo = Convert.ToDecimal(temperatureArvo);
             InitializeComponent();
-            double pyöristys = Math.Round(arvo, 1);
+            decimal pyöristys = Math.Round(arvo, 1);
             Lämpötila.Text = pyöristys.ToString();
         }
     }
