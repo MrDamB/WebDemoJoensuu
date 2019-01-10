@@ -11,13 +11,13 @@
         <Image HorizontalAlignment="Left" Height="571" Margin="343,100,0,0" VerticalAlignment="Top" Width="377" Source="SuomenKartta.jpg"/>
         <Button x:Name="Rovaniemi" Content="Rovaniemi" HorizontalAlignment="Left" Margin="35,100,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Rovaniemi_Click" MouseEnter="Rovaniemi_MouseEnter" MouseLeave="Rovaniemi_MouseLeave"/>
         <Button x:Name="Oulu" Content="Oulu" HorizontalAlignment="Left" Margin="35,167,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Oulu_Click"/>
-        <Button x:Name="Vaasa" Content="Vaasa" HorizontalAlignment="Left" Margin="35,237,0,0" VerticalAlignment="Top" Width="141" Height="44"/>
-        <Button x:Name="Kuopio" Content="Kuopio" HorizontalAlignment="Left" Margin="35,303,0,0" VerticalAlignment="Top" Width="141" Height="44"/>
-        <Button x:Name="Joensuu" Content="Joensuu" HorizontalAlignment="Left" Margin="35,369,0,0" VerticalAlignment="Top" Width="141" Height="44"/>
-        <Button x:Name="Mikkeli" Content="Mikkeli" HorizontalAlignment="Left" Margin="35,437,0,0" VerticalAlignment="Top" Width="141" Height="44"/>
-        <Button x:Name="Jyväskylä" Content="Jyväskylä" HorizontalAlignment="Left" Margin="35,503,0,0" VerticalAlignment="Top" Width="141" Height="44"/>
-        <Button x:Name="Tampere" Content="Tampere" HorizontalAlignment="Left" Margin="35,568,0,0" VerticalAlignment="Top" Width="141" Height="44"/>
-        <Button x:Name="Helsinki" Content="Helsinki" HorizontalAlignment="Left" Margin="35,627,0,0" VerticalAlignment="Top" Width="141" Height="44"/>
+        <Button x:Name="Vaasa" Content="Vaasa" HorizontalAlignment="Left" Margin="35,237,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Vaasa_Click"/>
+        <Button x:Name="Kuopio" Content="Kuopio" HorizontalAlignment="Left" Margin="35,303,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Kuopio_Click"/>
+        <Button x:Name="Joensuu" Content="Joensuu" HorizontalAlignment="Left" Margin="35,369,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Joensuu_Click"/>
+        <Button x:Name="Mikkeli" Content="Mikkeli" HorizontalAlignment="Left" Margin="35,437,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Mikkeli_Click"/>
+        <Button x:Name="Jyväskylä" Content="Jyväskylä" HorizontalAlignment="Left" Margin="35,503,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Jyväskylä_Click"/>
+        <Button x:Name="Tampere" Content="Tampere" HorizontalAlignment="Left" Margin="35,568,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Tampere_Click"/>
+        <Button x:Name="Helsinki" Content="Helsinki" HorizontalAlignment="Left" Margin="35,627,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Helsinki_Click"/>
 
     </Grid>
 </Window>

@@ -30,8 +30,8 @@ namespace WpfApp1
 
         private void Rovaniemi_Click(object sender, RoutedEventArgs e)
         {
-            Window1 sääTiedot = new Window1();
-            sääTiedot.Show();
+            Window1 sääTiedot1 = new Window1();
+            sääTiedot1.Show();
         }
 
         private void Rovaniemi_MouseEnter(object sender, MouseEventArgs e)
@@ -45,6 +45,43 @@ namespace WpfApp1
         }
 
         private void Oulu_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 sääTiedot2 = new Window2();
+            sääTiedot2.Show();
+        }
+
+        private void Vaasa_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 sääTiedot3 = new Window3();
+            sääTiedot3.Show();
+        }
+
+        private void Kuopio_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Joensuu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Mikkeli_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Jyväskylä_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Tampere_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Helsinki_Click(object sender, RoutedEventArgs e)
         {
 
         }

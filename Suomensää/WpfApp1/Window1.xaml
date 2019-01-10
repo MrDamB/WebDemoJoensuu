@@ -5,10 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Säätiedot" Height="540.241" Width="645.714">
+        Title="Säätiedot" Height="507" Width="627">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="27,38,0,0" TextWrapping="Wrap" Text="Sää tällä hetkellä" VerticalAlignment="Top" Height="87" Width="316" FontFamily="Segoe UI Black" FontSize="36"/>
-        <Image x:Name="Muuttuvakuva" HorizontalAlignment="Left" Height="229" Margin="353,146,0,0" VerticalAlignment="Top" Width="229" Initialized="Muuttuvakuva_Initialized"/>
-        <TextBlock x:Name="Lämpötila" HorizontalAlignment="Left" Margin="43,112,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="60" Width="102" FontSize="24" Initialized="Lämpötila_Initialized"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="196*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="Kuva" HorizontalAlignment="Left" Height="358" Margin="379,79,0,0" VerticalAlignment="Top" Width="209" Initialized="Muuttuvakuva_Initialized" Source="rovaniemi.jpg"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,25,0,0" TextWrapping="Wrap" Text="Lämpötila tällä hetkellä" VerticalAlignment="Top" Height="112" Width="316" FontFamily="Segoe UI Black" FontSize="36"/>
+        <TextBlock x:Name="Lämpötila" HorizontalAlignment="Left" Margin="25,142,0,0" TextWrapping="Wrap" Text="Testi" VerticalAlignment="Top" Height="60" Width="42" FontSize="24" />
+        <TextBlock x:Name="Celsius" HorizontalAlignment="Left" Margin="72,142,0,0" TextWrapping="Wrap" Text="°C" VerticalAlignment="Top" Height="39" Width="34" FontSize="24" RenderTransformOrigin="0.061,0.492"/>
     </Grid>
 </Window>
