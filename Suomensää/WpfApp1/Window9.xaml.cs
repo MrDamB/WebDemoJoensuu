@@ -23,7 +23,7 @@ namespace WpfApp1
         public Window9()
         {
             XmlDocument saaTiedot = new XmlDocument();
-            saaTiedot.Load("http://api.openweathermap.org/data/2.5/weather?q=Jyväskylä,fi&APPID=fc1e75b8dbbcabd75b50acb117c87da9&mode=xml&units=metric");
+            saaTiedot.Load("http://api.openweathermap.org/data/2.5/weather?q=Helsinki,fi&APPID=fc1e75b8dbbcabd75b50acb117c87da9&mode=xml&units=metric");
             XmlNode temperature = saaTiedot.SelectSingleNode("//current/temperature");
             double arvo = Convert.ToDouble(temperature.Attributes["value"].Value);
             InitializeComponent();

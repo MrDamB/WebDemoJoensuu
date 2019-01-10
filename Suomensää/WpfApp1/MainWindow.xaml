@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Testi" Height="800
+        Title="Suomen Sää" Height="800
         " Width="800" Opacity="1" WindowStyle="ToolWindow">
-    <Grid>
+    <Grid Margin="0,10,-0.4,0.2">
         <Image HorizontalAlignment="Left" Height="571" Margin="343,100,0,0" VerticalAlignment="Top" Width="377" Source="SuomenKartta.jpg"/>
         <Button x:Name="Rovaniemi" Content="Rovaniemi" HorizontalAlignment="Left" Margin="35,100,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Rovaniemi_Click" MouseEnter="Rovaniemi_MouseEnter" MouseLeave="Rovaniemi_MouseLeave"/>
         <Button x:Name="Oulu" Content="Oulu" HorizontalAlignment="Left" Margin="35,167,0,0" VerticalAlignment="Top" Width="141" Height="44" Click="Oulu_Click"/>
