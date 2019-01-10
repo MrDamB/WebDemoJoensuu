@@ -58,32 +58,38 @@ namespace WpfApp1
 
         private void Kuopio_Click(object sender, RoutedEventArgs e)
         {
-
+            Window4 sääTiedot4 = new Window4();
+            sääTiedot4.Show();
         }
 
         private void Joensuu_Click(object sender, RoutedEventArgs e)
         {
-
+            Window5 sääTiedot5 = new Window5();
+            sääTiedot5.Show();
         }
 
         private void Mikkeli_Click(object sender, RoutedEventArgs e)
         {
-
+            Window6 sääTiedot6 = new Window6();
+            sääTiedot6.Show();
         }
 
         private void Jyväskylä_Click(object sender, RoutedEventArgs e)
         {
-
+            Window7 sääTiedot7 = new Window7();
+            sääTiedot7.Show();
         }
 
         private void Tampere_Click(object sender, RoutedEventArgs e)
         {
-
+            Window8 sääTiedot8 = new Window8();
+            sääTiedot8.Show();
         }
 
         private void Helsinki_Click(object sender, RoutedEventArgs e)
         {
-
+            Window9 sääTiedot9 = new Window9();
+            sääTiedot9.Show();
         }
     }
 }
